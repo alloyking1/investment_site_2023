@@ -1,10 +1,18 @@
 <x-dashboard-layout>
     <div class="w-full px-6 py-6 mx-auto">
         <div class="flex flex-wrap -mx-3">
-            <x-dashboard.small-card>55</x-dashboard.small-card>
-            <x-dashboard.small-card>55</x-dashboard.small-card>
-            <x-dashboard.small-card>55</x-dashboard.small-card>
-            <x-dashboard.small-card>55</x-dashboard.small-card>
+          <div class="flex flex-wrap -mx-3">
+            @forelse ($investment as $investment)
+              <x-dashboard.small-card :title="$investment->package" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
+              <x-dashboard.small-card :title="$investment->contract" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
+              <x-dashboard.small-card title="Ref Bonus" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
+              <x-dashboard.small-card title="Ref Link" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
+            @empty
+                <x-dashboard.large-card>
+                  <h3>You do not have an active investment package</h3>
+                </x-dashboard.large-card>
+            @endforelse
+          </div>
         </div>
     </div>
 

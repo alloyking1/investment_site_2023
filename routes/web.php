@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InvestmentController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Investment;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,13 +23,14 @@ Route::get('/', function () {
 
 
 
-Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->middleware(['verified'])->name('dashboard');
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
     Route::get('/converter', function () {
-        return view('converter');
+
+        return view('converter', [
+            'investment' => Investment::where('user_id', Auth::id())->get()
+        ]);
     })->name('converter');
 });
 
