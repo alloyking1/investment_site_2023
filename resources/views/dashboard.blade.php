@@ -2,7 +2,7 @@
     <div class="w-full px-6 py-6 mx-auto">
         
         @if (Session::has('error'))
-            <x-dashboard.flash-error>{{Session::get('error')}}</x-dashboard.flash-error>
+            <x-dashboard.flash-success>{{Session::get('error')}}</x-dashboard.flash-success>
         @endif
         @if (Session::has('success'))
             <x-dashboard.flash-error>{{Session::get('success')}}</x-dashboard.flash-error>
@@ -21,8 +21,7 @@
             </x-dashboard.small-card>
             <x-dashboard.small-card title="Ref Bonus" percentage=""> 
                 <span class="flex gap-1">
-                {{-- {{"$".$investment->due_earnings }} --}}
-                {{"$10" }}
+                {{"$".$refBonus }}
                 <form action="{{ route('withdrawer.save') }}" method="Post">
                   @csrf
                   <button type="submit" class="rounded px-2 bg-blue-900 text-gray-200 font-bold text-xs">Withdraw</button>

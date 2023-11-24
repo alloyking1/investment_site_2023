@@ -49,7 +49,7 @@ class InvestAction
         }
     }
 
-    private function dueEarning($roi, $amount)
+    public function dueEarning($roi, $amount)
     {
         $percent_return = ($roi / 100) * $amount;
         return $percent_return;
