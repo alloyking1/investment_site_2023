@@ -20,7 +20,7 @@ class InvestmentController extends Controller
     public function save(InvestmentRequest $request, InvestAction $investmentAction)
     {
         try {
-            // $invest = $investmentAction->handle($request->all());
+            $investmentAction->handle($request->all());
             return redirect()->route('investment.deposit');
         } catch (\Exception $e) {
             return redirect()->back()->with('error', $e->getMessage());

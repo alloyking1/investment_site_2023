@@ -14,6 +14,7 @@ class Investment extends Model
         'amount',
         'wallet_address',
         'payment_coin',
+        'due_earnings',
         'contract',
     ];
 }

@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InvestmentController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\WithdrawerController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Investment;
 
@@ -45,6 +46,10 @@ Route::prefix('investment')->group(function () {
     Route::post('/save', [InvestmentController::class, 'save'])->name('investment.save');
     Route::get('/deposit', [InvestmentController::class, 'deposit'])->name('investment.deposit');
     Route::post('/deposit/save', [InvestmentController::class, 'depositSave'])->name('investment.deposit.save');
+});
+
+Route::prefix('withdrawer')->group(function () {
+    Route::post('/save', WithdrawerController::class)->name('withdrawer.save');
 });
 
 require __DIR__ . '/auth.php';

@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('withdrawers', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
+            $table->string('bundle');
+            $table->string('amount');
+            $table->string('wallet_id');
+            $table->string('due_earnings')->nullable();
+            $table->boolean('payment_status')->default(0);
             $table->timestamps();
         });
     }

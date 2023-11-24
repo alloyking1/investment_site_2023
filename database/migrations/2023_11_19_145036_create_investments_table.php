@@ -22,7 +22,7 @@ return new class extends Migration
             // $table->string('wallet_email')->nullable();
             $table->string('payment_img')->nullable();
             // $table->string('ref_bonuse')->nullable();
-            // $table->string('due_earnings')->nullable();
+            $table->string('due_earnings')->nullable();
             $table->boolean('investment_status')->default(0);
             $table->timestamps();
         });

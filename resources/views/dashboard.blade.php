@@ -1,11 +1,37 @@
 <x-dashboard-layout>
     <div class="w-full px-6 py-6 mx-auto">
+        
+        @if (Session::has('error'))
+            <x-dashboard.flash-error>{{Session::get('error')}}</x-dashboard.flash-error>
+        @endif
+        @if (Session::has('success'))
+            <x-dashboard.flash-error>{{Session::get('success')}}</x-dashboard.flash-error>
+        @endif
         <div class="flex flex-wrap -mx-3">
           @forelse ($investment as $investment)
-            <x-dashboard.small-card :title="$investment->package" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
-            <x-dashboard.small-card :title="$investment->contract" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
-            <x-dashboard.small-card title="Ref Bonus" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
-            <x-dashboard.small-card title="Ref Link" percentage="+10%">{{"$".$investment->amount }}</x-dashboard.small-card>
+            <x-dashboard.small-card :title="$investment->package" percentage="{{ $percentEarned.'%' }}">{{"$".$investment->amount }}</x-dashboard.small-card>
+            <x-dashboard.small-card :title="$investment->contract" percentage="">
+              <span class="flex gap-1">
+                {{"$".$investment->due_earnings }}
+                <form action="{{ route('withdrawer.save') }}" method="Post">
+                  @csrf
+                  <button type="submit" class="rounded px-2 bg-blue-900 text-gray-200 font-bold text-xs">Withdraw</button>
+                </form> 
+              </span>
+            </x-dashboard.small-card>
+            <x-dashboard.small-card title="Ref Bonus" percentage=""> 
+                <span class="flex gap-1">
+                {{-- {{"$".$investment->due_earnings }} --}}
+                {{"$10" }}
+                <form action="{{ route('withdrawer.save') }}" method="Post">
+                  @csrf
+                  <button type="submit" class="rounded px-2 bg-blue-900 text-gray-200 font-bold text-xs">Withdraw</button>
+                </form> 
+              </span>
+            </x-dashboard.small-card>
+            <x-dashboard.small-card-ref-bonus title="Ref Link" percentage=""><span class="text-[6px]">
+                {{url('/register?ref='.Auth::user()->email)}}
+            </span></x-dashboard.small-card-ref-bonus>
           @empty
               <x-dashboard.large-card>
                 <h3>You do not have an active investment package</h3>
@@ -15,12 +41,11 @@
     </div>
 
 
-
-
     <div class="flex flex-wrap my-6 -mx-3">
         <!-- card 1 -->
 
         <x-dashboard.large-card header="Investment (1)">
+            
             <form method="POST" action="{{ route('investment.save') }}">
                 @csrf
         
