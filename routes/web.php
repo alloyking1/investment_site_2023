@@ -20,7 +20,7 @@ use App\Models\Investment;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 
 

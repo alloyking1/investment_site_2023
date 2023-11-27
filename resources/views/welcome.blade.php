@@ -52,7 +52,7 @@
               <ul class="flex flex-wrap items-center justify-center mb-10">
                 <li>
                   <a
-                    href="https://links.tailgrids.com/play-download"
+                    href="#pricing"
                     class="
                       py-4
                       px-6
@@ -75,7 +75,7 @@
                 </li>
                 <li>
                   <a
-                    href="https://github.com/tailgrids/play-tailwind"
+                    href="{{ route('login') }}"
                     target="_blank"
                     class="
                       text-base
@@ -146,7 +146,7 @@
                   viewBox="0 0 134 106"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                >
+                  >
                   <circle
                     cx="1.66667"
                     cy="104"
@@ -716,7 +716,7 @@
                   viewBox="0 0 134 106"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                >
+                  >
                   <circle
                     cx="1.66667"
                     cy="104"
@@ -2213,7 +2213,7 @@
                   mb-4
                 "
               >
-                Any Questions? Answered
+              Frequently Asked Questions
               </h2>
               <p
                 class="
@@ -2224,8 +2224,7 @@
                   text-body-color
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Below are a list of Frequently asked questions by our users. We have provided the answers.
               </p>
             </div>
           </div>
@@ -2280,16 +2279,14 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base sm:text-lg font-semibold text-black">
-                    How to use TailGrids?
+                    How do I start and investment?
                   </h4>
                 </div>
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                  A vast range of plans offered by us and our partners is one of the best way we share a close knit with our users base. 
+                  Adding new and more things to our offerings is the key for the success of our business and our customer’s satisfaction.
                 </p>
               </div>
             </div>
@@ -2340,16 +2337,14 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base sm:text-lg font-semibold text-black">
-                    How to download icons from LineIcons?
+                    What are the benefits if I invest?
                   </h4>
                 </div>
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                  A vast range of services offered by us and our partners is one of the best way we share a close knit with our users base. 
+                  Adding new and more things to our offerings is the key for the success of our business and our customer’s satisfaction.
                 </p>
               </div>
             </div>
@@ -2400,16 +2395,14 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Is GrayGrids part of UIdeck?
+                    What is the promise of market stability?
                   </h4>
                 </div>
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                  A vast range of services offered by us and our partners is one of the best way we share a close knit with our users base. Adding new and more things to our offerings is the key for the success of our business and our customer’s satisfaction.
+                    A vast range of services offered by us and our partners is one of the best way we share a close knit with our users base. Adding new and more things to our offerings is the key for the success of our business and our customer’s satisfaction.
                 </p>
               </div>
             </div>
@@ -2462,16 +2455,13 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Can I use this template for commercial project?
+                    I made a withdrawal, but it was not processed instantly. Why?
                   </h4>
                 </div>
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                  Because you must always wait until 3 confirmations before it appears in your wallet, and it only depends on the speed of the Bitcoin network. These links are very useful for you: https://www.blockchain.com/btc/tx and https://www.blockchain.com/btc/unconfirmed-transactions.
                 </p>
               </div>
             </div>
@@ -2522,16 +2512,13 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Do you have plan to releasing Play Pro?
+                    How fast will my deposit be credited into my account?
                   </h4>
                 </div>
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                  Your deposit will be added after 3 confirmations of Bitcoin network. This process takes from 1 to 24 hours. 
                 </p>
               </div>
             </div>
@@ -2582,16 +2569,13 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base sm:text-lg font-semibold text-black">
-                    Where and how to host this template?
+                    Do you charge any fee to withdraw funds?
                   </h4>
                 </div>
               </button>
               <div class="faq-content pl-[62px] hidden">
                 <p class="text-base text-body-color leading-relaxed py-3">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content marketing strategy that we do before writing your
-                  first blog post, Ipsum available .
+                  No, our clients do not have to bear any fees while withdrawing their funds.
                 </p>
               </div>
             </div>
@@ -2661,8 +2645,7 @@
                   text-body-color
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              We’re a global consultancy that helps the world’s most ambitious change makers define the future
               </p>
             </div>
           </div>
@@ -2747,29 +2730,13 @@
               </div>
               <div class="ud-testimonial-content mb-6">
                 <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  “I was initially skeptical about online investments, but this site has completely changed my perspective. The comprehensive tools and educational resources provided made it easy for me to understand and manage my investments effectively. The returns have exceeded my expectations, and the regular updates keep me informed. I feel secure and well-supported on this platform."
                 </p>
               </div>
               <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="
-                    ud-testimonial-image
-                    w-[50px]
-                    h-[50px]
-                    rounded-full
-                    overflow-hidden
-                    mr-5
-                  "
-                >
-                  <img
-                    src="assets/images/testimonials/author-01.png"
-                    alt="author"
-                  />
-                </div>
                 <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Sabo Masties</h4>
-                  <p class="text-[#969696] text-xs">Founder @ Rolex</p>
+                  <h4 class="text-sm font-semibold">Samuel Masties</h4>
+                  <p class="text-[#969696] text-xs">Investor</p>
                 </div>
               </div>
             </div>
@@ -2852,29 +2819,14 @@
               </div>
               <div class="ud-testimonial-content mb-6">
                 <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  As a seasoned investor, I'm always on the lookout for platforms that offer a combination of innovation and reliability. This investment site has impressed me with its cutting-edge features and robust security measures. The wide array of investment products caters to various risk appetites. The results speak for themselves – my portfolio has flourished since I joined.
                 </p>
               </div>
               <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="
-                    ud-testimonial-image
-                    w-[50px]
-                    h-[50px]
-                    rounded-full
-                    overflow-hidden
-                    mr-5
-                  "
-                >
-                  <img
-                    src="assets/images/testimonials/author-02.png"
-                    alt="author"
-                  />
-                </div>
+                
                 <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Margin Gesmu</h4>
-                  <p class="text-[#969696] text-xs">Founder @ UI Hunter</p>
+                  <h4 class="text-sm font-semibold">James M</h4>
+                  <p class="text-[#969696] text-xs">Investor</p>
                 </div>
               </div>
             </div>
@@ -2957,118 +2909,14 @@
               </div>
               <div class="ud-testimonial-content mb-6">
                 <p class="text-base tracking-wide text-body-color">
-                  “Our members are so impressed. It's intuitive. It's clean.
-                  It's distraction free. If you're building a community.
+                  “I'm relatively new to the investment scene, and this platform has been the perfect starting point for me. The interface is intuitive, and they provide excellent educational materials for beginners. What sets this site apart is the sense of community – I've connected with other investors, and the shared insights have been invaluable. It's more than just a platform; it's a supportive community."
                 </p>
               </div>
+              
               <div class="ud-testimonial-info flex items-center">
-                <div
-                  class="
-                    ud-testimonial-image
-                    w-[50px]
-                    h-[50px]
-                    rounded-full
-                    overflow-hidden
-                    mr-5
-                  "
-                >
-                  <img
-                    src="assets/images/testimonials/author-03.png"
-                    alt="author"
-                  />
-                </div>
                 <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">William Smith</h4>
-                  <p class="text-[#969696] text-xs">Founder @ Trorex</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-wrap">
-          <div class="w-full mx-4">
-            <div class="wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-title mb-8">
-                <h6
-                  class="
-                    text-xs
-                    font-normal
-                    text-body-color
-                    relative
-                    inline-flex
-                    items-center
-                  "
-                >
-                  Some Of Our Clients
-                  <span class="w-8 h-[1px] inline-block bg-[#afb2b5] ml-4">
-                  </span>
-                </h6>
-              </div>
-              <div class="ud-brands-logo flex items-center flex-wrap">
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://tailgrids.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/tailgrids.svg"
-                      alt="tailgrids"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://ayroui.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/ayroui.svg"
-                      alt="ayroui"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://uideck.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/uideck.svg"
-                      alt="uideck"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://graygrids.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/graygrids.svg"
-                      alt="graygrids"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="https://lineicons.com"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="assets/images/brands/lineicons.svg"
-                      alt="lineicons"
-                      class="grayscale hover:filter-none duration-300"
-                    />
-                  </a>
+                  <h4 class="text-sm font-semibold">Emily B</h4>
+                  <p class="text-[#969696] text-xs">Investor</p>
                 </div>
               </div>
             </div>
@@ -3079,7 +2927,7 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Team Section Start -->
-    <section id="team" class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
+    {{-- <section id="team" class="pt-20 lg:pt-[120px] pb-10 lg:pb-20">
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
@@ -3108,8 +2956,7 @@
                   text-body-color
                 "
               >
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              We are global consulting powerhouse. We began our operations within the last decade and have grown due to excellent relationships with our clients.
               </p>
             </div>
           </div>
@@ -3553,10 +3400,10 @@
               </div>
               <div class="text-center">
                 <h4 class="font-medium text-lg text-dark mb-2">
-                  Adveen Desuza
+                  Anthony Jack
                 </h4>
                 <p class="font-medium text-sm text-body-color mb-5">
-                  UI Designer
+                  ...
                 </p>
                 <div class="flex items-center justify-center">
                   <a
@@ -5216,7 +5063,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
     <!-- ====== Team Section End -->
 
     <!-- ====== Contact Start ====== -->
@@ -5243,7 +5090,7 @@
                   CONTACT US
                 </span>
                 <h2 class="text-[35px] font-semibold">
-                  Let's talk about <br />
+                  Let's talk <br />
                   Love to hear from you!
                 </h2>
               </div>
@@ -5286,9 +5133,9 @@
                   </div>
                   <div>
                     <h5 class="text-lg font-semibold mb-6">How Can We Help?</h5>
-                    <p class="text-base text-body-color">info@yourdomain.com</p>
+                    <p class="text-base text-body-color">{{ env('EMAIL_ONE') }}</p>
                     <p class="text-base text-body-color">
-                      contact@yourdomain.com
+                      {{ env('EMAIL_TWO') }}
                     </p>
                   </div>
                 </div>
@@ -5420,22 +5267,17 @@
       data-wow-delay=".15s"
     >
       <div class="container">
-        <div class="flex flex-wrap -mx-4">
+        <div class="flex justify-between flex-wrap -mx-4">
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12 px-4">
             <div class="w-full mb-10">
               <a
                 href="javascript:void(0)"
                 class="inline-block max-w-[160px] mb-6"
               >
-                <img
-                  src="assets/images/logo/logo-white.svg"
-                  alt="logo"
-                  class="max-w-full"
-                />
+                <span class="text-2xl font-bold text-white"> {{ env('APP_NAME') }}</span>
               </a>
               <p class="text-base text-[#f3f4fe] mb-7">
-                We create digital experiences for brands and companies by using
-                technology.
+                {{ env('APP_NAME') }} offers an industry-tailored, highly configurable platform that solves challenges across the private/public investment landscape for all.
               </p>
               <div class="flex items-center -mx-3">
                 <a
@@ -5507,13 +5349,14 @@
               </div>
             </div>
           </div>
+
           <div class="w-full sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 px-4">
             <div class="w-full mb-10">
               <h4 class="text-white text-lg font-semibold mb-9">About Us</h4>
               <ul>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="#home"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5527,21 +5370,7 @@
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
-                    class="
-                      inline-block
-                      text-base text-[#f3f4fe]
-                      hover:text-primary
-                      leading-loose
-                      mb-2
-                    "
-                  >
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="javascript:void(0)"
+                    href="#about"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5555,7 +5384,7 @@
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="#pricing"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -5564,13 +5393,28 @@
                       mb-2
                     "
                   >
-                    Testimonial
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#contact"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Contact
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
+
+          {{-- <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
             <div class="w-full mb-10">
               <h4 class="text-white text-lg font-semibold mb-9">Features</h4>
               <ul>
@@ -5632,8 +5476,9 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
+          </div> --}}
+          
+          {{-- <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
             <div class="w-full mb-10">
               <h4 class="text-white text-lg font-semibold mb-9">
                 Our Products
@@ -5698,6 +5543,7 @@
               </ul>
             </div>
           </div>
+
           <div class="w-full md:w-2/3 lg:w-6/12 xl:w-3/12 px-4">
             <div class="w-full mb-10">
               <h4 class="text-white text-lg font-semibold mb-9">Partners</h4>
@@ -5824,7 +5670,8 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> --}}
+          
         </div>
       </div>
 
@@ -5866,14 +5713,15 @@
             <div class="w-full md:w-1/3 lg:w-1/2 px-4">
               <div class="flex justify-center md:justify-end my-1">
                 <p class="text-base text-[#f3f4fe]">
-                  Designed and Developed by
+                  
+                  Copyrights © 
                   <a
-                    href="https://tailgrids.com"
+                    href="#"
                     rel="nofollow noopner"
                     target="_blank"
                     class="text-primary hover:underline"
                   >
-                    TailGrids and UIdeck
+                  {{ env('APP_NAME') }}  2024
                   </a>
                 </p>
               </div>
@@ -5897,8 +5745,7 @@
             height="102"
             viewBox="0 0 102 102"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <path
               d="M1.8667 33.1956C2.89765 33.1956 3.7334 34.0318 3.7334 35.0633C3.7334 36.0947 2.89765 36.9309 1.8667 36.9309C0.835744 36.9309 4.50645e-08 36.0947 0 35.0633C-4.50645e-08 34.0318 0.835744 33.1956 1.8667 33.1956Z"
               fill="white"

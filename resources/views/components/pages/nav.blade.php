@@ -3,8 +3,8 @@
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">
         <div class="w-60 max-w-full px-4">
-          <a href="index.html" class="navbar-logo block w-full py-5">
-            <img src={{ asset('/images/logo/logo-white.svg') }} alt="logo" class="header-logo w-full" />
+          <a href="{{ route('home') }}" class="navbar-logo block w-full py-5 font-bold text-2xl text-white">
+            <span class="">{{ env('APP_NAME') }}</span>
           </a>
         </div>
         <div class="flex w-full items-center justify-between px-4">
@@ -36,24 +36,38 @@
                     Pricing
                   </a>
                 </li>
-                <li class="group relative">
+                {{-- <li class="group relative">
                   <a href="#team"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     Team
                   </a>
-                </li>
+                </li> --}}
                 <li class="group relative">
                   <a href="#contact"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     Contact
                   </a>
                 </li>
+                <li class="group relative">
+                  <div class="">
+                    <a href="{{ route('login') }}" 
+                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
+                      Sign In
+                    </a>
+
+                    <a href="{{ route('login') }}" 
+                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
+                      login
+                    </a>
+                  </div>
+                </li>
+                
               </ul>
             </nav>
           </div>
           <div class="justify-end pr-16 flex items-center lg:pr-0">
             <div class="hidden sm:flex">
-              <a href="{{ route('login') }}" class="loginBtn py-2 px-[22px] text-base font-medium text-white hover:opacity-70">
+              <a href="{{ route('login') }}" class="loginBtn py-2 px-[22px] text-base font-medium text-white hover:opacity-70 mr-4">
                 Sign In
               </a>
               <a href="{{ route('register') }}"
