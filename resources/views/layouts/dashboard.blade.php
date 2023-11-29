@@ -24,7 +24,7 @@
   <body class="m-0 font-sans antialiased font-normal text-base leading-default bg-gray-50 text-slate-500">
     <x-dashboard.aside/>
     <main class="ease-soft-in-out xl:ml-68.5 relative h-full max-h-screen rounded-xl transition-all duration-200">
-      <x-dashboard.nav/>
+      {{-- <x-dashboard.nav/> --}}
 
       <div class="p-10">
           {{ $slot }}
@@ -784,7 +784,7 @@
       <div fixed-plugin-card class="z-sticky shadow-soft-3xl w-90 ease-soft -right-90 fixed top-0 left-auto flex h-full min-w-0 flex-col break-words rounded-none border-0 bg-white bg-clip-border px-2.5 duration-200">
         <div class="px-6 pt-4 pb-0 mb-0 bg-white border-b-0 rounded-t-2xl">
           <div class="float-left">
-            <h5 class="mt-4 mb-0">Soft UI Configurator</h5>
+            <h5 class="mt-4 mb-0">{{ env('APP_NAME') }}</h5>
             <p>See our dashboard options.</p>
           </div>
           <div class="float-right mt-6">

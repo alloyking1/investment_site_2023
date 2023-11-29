@@ -51,14 +51,24 @@
                 <li class="group relative">
                   <div class="">
                     <a href="{{ route('login') }}" 
-                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
+                    class="lg:hidden mx-8 flex py-2 font-medium text-base text-dark dark:text-white 
+                    group-hover:text-primary 
+                    ">Login</a>
+                    <a href="{{ route('register') }}" 
+                    class="lg:hidden mx-8 flex py-2 font-medium text-base text-dark dark:text-white 
+                    group-hover:text-primary 
+                    ">register</a>
+                    {{-- <a href="{{ route('login') }}" 
+                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white 
+                    group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white 
+                    lg:group-hover:opacity-70 xl:ml-10">
                       Sign In
                     </a>
 
-                    <a href="{{ route('login') }}" 
+                    <a href="{{ route('register') }}" 
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
-                      login
-                    </a>
+                      Register
+                    </a> --}}
                   </div>
                 </li>
                 

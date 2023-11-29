@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InvestmentController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WithdrawerController;
+use App\Models\Contact;
 use Illuminate\Support\Facades\Route;
 use App\Models\Investment;
 
@@ -22,7 +24,7 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-
+Route::post('/contact', ContactController::class)->name('contact');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
