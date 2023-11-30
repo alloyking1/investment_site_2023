@@ -2,10 +2,10 @@
     <div class="w-full px-6 py-6 mx-auto">
         
         @if (Session::has('error'))
-            <x-dashboard.flash-success>{{Session::get('error')}}</x-dashboard.flash-success>
+            <x-dashboard.flash-error>{{Session::get('error')}}</x-dashboard.flash-error>
         @endif
         @if (Session::has('success'))
-            <x-dashboard.flash-error>{{Session::get('success')}}</x-dashboard.flash-error>
+            <x-dashboard.flash-success>{{Session::get('success')}}</x-dashboard.flash-success>
         @endif
         <div class="flex flex-wrap -mx-3">
           @forelse ($investment as $investment)
