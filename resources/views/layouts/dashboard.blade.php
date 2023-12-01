@@ -22,8 +22,8 @@
   </head>
 
   <body class="m-0 font-sans antialiased font-normal text-base leading-default bg-gray-50 text-slate-500">
-    <div x-data="{ openSideBar: true }"  class="flex justify-between">
-      <div x-show="openSideBar">
+    <div x-data="{ openSideBar: false }"  class="flex justify-between">
+      <div x-show="openSideBar" class="mx:block">
         <x-dashboard.aside/>
       </div>
       <ul x-on:click="openSideBar = ! openSideBar" class="flex flex-row justify-end pl-0 mb-0 list-none md-max:w-full">
@@ -38,6 +38,10 @@
           </a>
         </li>
       </ul>
+    </div>
+
+    <div class="hidden md:block">
+      <x-dashboard.aside/>
     </div>
 
     <main class="ease-soft-in-out xl:ml-68.5 relative h-full max-h-screen rounded-xl transition-all duration-200">
