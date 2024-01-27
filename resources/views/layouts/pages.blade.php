@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('assets/css/tailwind.css') }}" />
+    {{-- @vite(['resources/css/app.css']) --}}
 
     <!--Start of Tawk.to Script-->
     {{-- <script type="text/javascript">
@@ -30,17 +31,17 @@
     <script>
       new WOW().init();
     </script>
-     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    
   </head>
   <body>
 
 <body class="">
+        <div class="">
+          {{ $slot }}
+        </div>
         
-        {{ $slot }}
-<!-- ====== Back To Top End -->
 
     <!-- ====== All Scripts -->
-
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script>
       // ==== for menu scroll
@@ -57,30 +58,30 @@
       });
 
       // section menu active
-      function onScroll(event) {
-        const sections = document.querySelectorAll(".ud-menu-scroll");
-        const scrollPos =
-          window.pageYOffset ||
-          document.documentElement.scrollTop ||
-          document.body.scrollTop;
+      // function onScroll(event) {
+      //   const sections = document.querySelectorAll(".ud-menu-scroll");
+      //   const scrollPos =
+      //     window.pageYOffset ||
+      //     document.documentElement.scrollTop ||
+      //     document.body.scrollTop;
 
-        for (let i = 0; i < sections.length; i++) {
-          const currLink = sections[i];
-          const val = currLink.getAttribute("href");
-          const refElement = document.querySelector(val);
-          const scrollTopMinus = scrollPos + 73;
-          if (
-            refElement.offsetTop <= scrollTopMinus &&
-            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
-          ) {
-            document
-              .querySelector(".ud-menu-scroll")
-              .classList.remove("active");
-            currLink.classList.add("active");
-          } else {
-            currLink.classList.remove("active");
-          }
-        }
+      //   for (let i = 0; i < sections.length; i++) {
+      //     const currLink = sections[i];
+      //     const val = currLink.getAttribute("href");
+      //     const refElement = document.querySelector(val);
+      //     const scrollTopMinus = scrollPos + 73;
+      //     if (
+      //       refElement.offsetTop <= scrollTopMinus &&
+      //       refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+      //     ) {
+      //       document
+      //         .querySelector(".ud-menu-scroll")
+      //         .classList.remove("active");
+      //       currLink.classList.add("active");
+      //     } else {
+      //       currLink.classList.remove("active");
+      //     }
+      //   }
       }
 
       window.document.addEventListener("scroll", onScroll);

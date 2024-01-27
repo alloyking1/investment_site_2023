@@ -151,7 +151,7 @@ data-wow-delay=".15s"
       </div>
     </div>
 
-    {{-- <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
+    <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
       <div class="w-full mb-10">
         <h4 class="text-white text-lg font-semibold mb-9">Features</h4>
         <ul>
@@ -213,9 +213,9 @@ data-wow-delay=".15s"
           </li>
         </ul>
       </div>
-    </div> --}}
+    </div>
     
-    {{-- <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
+    <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
       <div class="w-full mb-10">
         <h4 class="text-white text-lg font-semibold mb-9">
           Our Products
@@ -281,7 +281,7 @@ data-wow-delay=".15s"
       </div>
     </div>
 
-    <div class="w-full md:w-2/3 lg:w-6/12 xl:w-3/12 px-4">
+    {{-- <div class="w-full md:w-2/3 lg:w-6/12 xl:w-3/12 px-4">
       <div class="w-full mb-10">
         <h4 class="text-white text-lg font-semibold mb-9">Partners</h4>
         <ul class="flex flex-wrap items-center">

@@ -19,31 +19,38 @@
               class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white dark:bg-dark-2 py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent dark:lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6">
               <ul class="blcok lg:flex 2xl:ml-20">
                 <li class="group relative">
-                  <a href="#home"
+                  <a href="{{ route('home') }}"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70">
                     Home
                   </a>
                 </li>
                 <li class="group relative">
-                  <a href="#about"
+                  <a href="{{ route('about') }}"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     About
                   </a>
                 </li>
+                
                 <li class="group relative">
-                  <a href="#pricing"
+                  <a href="{{ route('services') }}"
+                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
+                    Services
+                  </a>
+                </li>
+                <li class="group relative">
+                  <a href="{{ route('price') }}"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     Pricing
                   </a>
                 </li>
-                {{-- <li class="group relative">
-                  <a href="#team"
+                <li class="group relative">
+                  <a href="{{ route('team') }}"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     Team
                   </a>
-                </li> --}}
+                </li>
                 <li class="group relative">
-                  <a href="#contact"
+                  <a href="{{ route('contact') }}"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
                     Contact
                   </a>
@@ -58,17 +65,6 @@
                     class="lg:hidden mx-8 flex py-2 font-medium text-base text-dark dark:text-white 
                     group-hover:text-primary 
                     ">register</a>
-                    {{-- <a href="{{ route('login') }}" 
-                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white 
-                    group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white 
-                    lg:group-hover:opacity-70 xl:ml-10">
-                      Sign In
-                    </a>
-
-                    <a href="{{ route('register') }}" 
-                    class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:hidden lg:mr-0 lg:ml-7 lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">
-                      Register
-                    </a> --}}
                   </div>
                 </li>
                 

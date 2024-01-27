@@ -3,6 +3,7 @@
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\InvestmentController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WithdrawerController;
 use App\Models\Contact;
@@ -20,9 +21,12 @@ use App\Models\Investment;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+Route::get('/', [PagesController::class, 'index'])->name('home');
+Route::get('/about', [PagesController::class, 'about'])->name('about');
+Route::get('/services', [PagesController::class, 'services'])->name('services');
+Route::get('/price', [PagesController::class, 'price'])->name('price');
+Route::get('/team', [PagesController::class, 'team'])->name('team');
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 Route::post('/contact', ContactController::class)->name('contact');
 
