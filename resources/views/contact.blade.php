@@ -1286,10 +1286,6 @@
     </div>
     <!-- ====== Banner Section End -->
 
-    <!-- ====== Team Section Start -->
-    
-    <!-- ====== Team Section End -->
-
     <x-pages.contact-us/>
 
     <x-pages.footer/>

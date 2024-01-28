@@ -27,6 +27,10 @@ Route::get('/services', [PagesController::class, 'services'])->name('services');
 Route::get('/price', [PagesController::class, 'price'])->name('price');
 Route::get('/team', [PagesController::class, 'team'])->name('team');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/how/it/works', [PagesController::class, 'howItWorks'])->name('howItWorks');
+Route::get('/privacy', [PagesController::class, 'privacy'])->name('privacy');
+// Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+// Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 Route::post('/contact', ContactController::class)->name('contact');
 

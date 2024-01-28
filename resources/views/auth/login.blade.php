@@ -22,9 +22,33 @@
                       </a>
                     </li>
                     <li>
-                      <a href="{{ route('home') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                      <a href="{{ route('about') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
                         <i class="mr-1 fa fa-user opacity-60"></i>
                         About
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('services') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Services
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('price') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Price
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('team') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Team
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('contact') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Contact
                       </a>
                     </li>
                   </ul>

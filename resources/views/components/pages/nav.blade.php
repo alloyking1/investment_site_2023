@@ -2,11 +2,18 @@
  <div class="ud-header absolute top-0 left-0 z-40 flex w-full items-center bg-transparent">
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">
+
         <div class="w-60 max-w-full px-4">
-          <a href="{{ route('home') }}" class="navbar-logo block w-full py-5 font-bold text-2xl text-white">
-            <span class="">{{ env('APP_NAME') }}</span>
-          </a>
+          <ul class="blcok lg:flex 2xl:ml-20">
+            <li class="group relative">
+              <a href="{{ route('home') }}"
+                class="ud-menu-scroll mx-8 flex py-8 font-bold text-2xl text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70">
+                <span class="">{{ env('APP_LOGO') }}</span>
+              </a>
+            </li>
+          </ul>
         </div>
+
         <div class="flex w-full items-center justify-between px-4">
           <div>
             <button id="navbarToggler"
@@ -15,6 +22,7 @@
               <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
               <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
             </button>
+
             <nav id="navbarCollapse"
               class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white dark:bg-dark-2 py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent dark:lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6">
               <ul class="blcok lg:flex 2xl:ml-20">
@@ -30,7 +38,7 @@
                     About
                   </a>
                 </li>
-                
+
                 <li class="group relative">
                   <a href="{{ route('services') }}"
                     class="ud-menu-scroll mx-8 flex py-2 font-medium text-base text-dark dark:text-white group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-10">

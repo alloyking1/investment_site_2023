@@ -60,7 +60,7 @@
                 <ul class="flex flex-wrap items-center justify-center mb-10">
                   <li>
                     <a
-                      href="#pricing"
+                      href="{{ route('login') }}"
                       class="
                         py-4
                         px-6
@@ -83,8 +83,7 @@
                   </li>
                   <li>
                     <a
-                      href="{{ route('login') }}"
-                      target="_blank"
+                      href="#pricing"
                       class="
                         text-base
                         font-medium
@@ -1655,7 +1654,7 @@
         z-20
         overflow-hidden
       "
-    >
+      >
       <div class="container">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4">
@@ -1761,7 +1760,7 @@
               </div>
               <div class="w-full">
                 <a
-                  href="{{ route('login') }}"
+                  href="{{ route('register') }}"
                   class="
                     inline-block
                     text-base
@@ -1871,7 +1870,7 @@
               </div>
               <div class="w-full">
                 <a
-                  href="{{ route('login') }}"
+                  href="{{ route('register') }}"
                   class="
                     inline-block
                     text-base
@@ -1979,7 +1978,7 @@
               </div>
               <div class="w-full">
                 <a
-                  href="{{ route('login') }}"
+                  href="{{ route('register') }}"
                   class="
                     inline-block
                     text-base
@@ -2089,7 +2088,7 @@
               </div>
               <div class="w-full">
                 <a
-                  href="{{ route('login') }}"
+                  href="{{ route('register') }}"
                   class="
                     inline-block
                     text-base
@@ -2615,7 +2614,7 @@
               "
               data-wow-delay=".1s
               "
-            >
+              >
               <div class="ud-testimonial-ratings flex items-center mb-3">
                 <span class="text-[#fbb040] mr-1">
                   <svg
@@ -2684,13 +2683,20 @@
                 </p>
               </div>
               <div class="ud-testimonial-info flex items-center">
-                <div class="ud-testimonial-meta">
-                  <h4 class="text-sm font-semibold">Samuel Masties</h4>
-                  <p class="text-[#969696] text-xs">Investor</p>
+                <div class="ud-testimonial-meta flex">
+                  <div class="w-[7px] h-[7px]">
+                    <img src="{{ asset('assets/theme_asset/img/faces/1.jpg') }}" style="width: 25px; border-radius:100%; margin-right:.5rem" alt="">
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-semibold">Samuel Masties</h4>
+                    <p class="text-[#969696] text-xs">Investor</p>
+                  </div>
+                  
                 </div>
               </div>
             </div>
           </div>
+
           <div class="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
               class="
@@ -2704,7 +2710,7 @@
               "
               data-wow-delay=".15s
               "
-            >
+              >
               <div class="ud-testimonial-ratings flex items-center mb-3">
                 <span class="text-[#fbb040] mr-1">
                   <svg
@@ -2772,12 +2778,16 @@
                   As a seasoned investor, I'm always on the lookout for platforms that offer a combination of innovation and reliability. This investment site has impressed me with its cutting-edge features and robust security measures. The wide array of investment products caters to various risk appetites. The results speak for themselves – my portfolio has flourished since I joined.
                 </p>
               </div>
-              <div class="ud-testimonial-info flex items-center">
-                
-                <div class="ud-testimonial-meta">
+
+              <div class="ud-testimonial-meta flex">
+                <div class="w-[7px] h-[7px]">
+                  <img src="{{ asset('assets/theme_asset/img/faces/5.png') }}" style="width: 25px; border-radius:100%; margin-right:.5rem" alt="">
+                </div>
+                <div>
                   <h4 class="text-sm font-semibold">James M</h4>
                   <p class="text-[#969696] text-xs">Investor</p>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -2862,12 +2872,16 @@
                   “I'm relatively new to the investment scene, and this platform has been the perfect starting point for me. The interface is intuitive, and they provide excellent educational materials for beginners. What sets this site apart is the sense of community – I've connected with other investors, and the shared insights have been invaluable. It's more than just a platform; it's a supportive community."
                 </p>
               </div>
-              
-              <div class="ud-testimonial-info flex items-center">
-                <div class="ud-testimonial-meta">
+
+              <div class="ud-testimonial-meta flex">
+                <div class="w-[7px] h-[7px]">
+                  <img src="{{ asset('assets/theme_asset/img/faces/3.jpg') }}" style="width: 25px; border-radius:100%; margin-right:.5rem" alt="">
+                </div>
+                <div>
                   <h4 class="text-sm font-semibold">Emily B</h4>
                   <p class="text-[#969696] text-xs">Investor</p>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -2878,107 +2892,107 @@
 
 
      <!-- ====== Call To Action Section Start -->
- <section class="py-20 lg:py-[120px] bg-white dark:bg-dark">
-  <div class="container mx-auto">
-    <div
-        class="relative z-10 overflow-hidden rounded bg-primary py-12 px-8 md:p-[70px]"
-        >
-        <div class="flex flex-wrap items-center -mx-4">
-          <div class="w-full px-4 lg:w-1/2">
-              <span class="block mb-4 text-base font-medium text-white">
-                Unique and Sustanable 
-              </span>
-              <h2
-                class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0"
-                >
-                <span class="xs:block"> Get started with </span>
-                <span>{{ env('APP_NAME') }}</span>
-              </h2>
-          </div>
-          <div class="w-full px-4 lg:w-1/2">
-              <div class="flex flex-wrap lg:justify-end">
-                <a
-                    href="{{ route('login') }}"
-                    class="inline-flex py-3 my-1 mr-4 text-base font-medium transition bg-white rounded-md hover:bg-shadow-1 text-primary px-7"
+    <section class="py-20 lg:py-[120px] bg-white dark:bg-dark">
+      <div class="container mx-auto">
+        <div
+            class="relative z-10 overflow-hidden rounded bg-primary py-12 px-8 md:p-[70px]"
+            >
+            <div class="flex flex-wrap items-center -mx-4">
+              <div class="w-full px-4 lg:w-1/2">
+                  <span class="block mb-4 text-base font-medium text-white">
+                    Unique and Sustanable 
+                  </span>
+                  <h2
+                    class="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0"
                     >
-                Log in
-                </a>
-                <a
-                    href="{{ route('register') }}"
-                    class="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:bg-opacity-90"
-                    >
-                Register
-                </a>
+                    <span class="xs:block"> Get started with </span>
+                    <span>{{ env('APP_NAME') }}</span>
+                  </h2>
               </div>
-          </div>
+              <div class="w-full px-4 lg:w-1/2">
+                  <div class="flex flex-wrap lg:justify-end">
+                    <a
+                        href="{{ route('login') }}"
+                        class="inline-flex py-3 my-1 mr-4 text-base font-medium transition bg-white rounded-md hover:bg-shadow-1 text-primary px-7"
+                        >
+                    Log in
+                    </a>
+                    <a
+                        href="{{ route('register') }}"
+                        class="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-secondary px-7 hover:bg-opacity-90"
+                        >
+                    Register
+                    </a>
+                  </div>
+              </div>
+            </div>
+            <div>
+              <span class="absolute top-0 left-0 z-[-1]">
+                  <svg
+                    width="189"
+                    height="162"
+                    viewBox="0 0 189 162"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <ellipse
+                        cx="16"
+                        cy="-16.5"
+                        rx="173"
+                        ry="178.5"
+                        transform="rotate(180 16 -16.5)"
+                        fill="url(#paint0_linear)"
+                        />
+                    <defs>
+                        <linearGradient
+                          id="paint0_linear"
+                          x1="-157"
+                          y1="-107.754"
+                          x2="98.5011"
+                          y2="-106.425"
+                          gradientUnits="userSpaceOnUse"
+                          >
+                          <stop stop-color="white" stop-opacity="0.07" />
+                          <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                  </svg>
+              </span>
+              <span class="absolute bottom-0 right-0 z-[-1]">
+                  <svg
+                    width="191"
+                    height="208"
+                    viewBox="0 0 191 208"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <ellipse
+                        cx="173"
+                        cy="178.5"
+                        rx="173"
+                        ry="178.5"
+                        fill="url(#paint0_linear)"
+                        />
+                    <defs>
+                        <linearGradient
+                          id="paint0_linear"
+                          x1="-3.27832e-05"
+                          y1="87.2457"
+                          x2="255.501"
+                          y2="88.5747"
+                          gradientUnits="userSpaceOnUse"
+                          >
+                          <stop stop-color="white" stop-opacity="0.07" />
+                          <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                  </svg>
+              </span>
+            </div>
         </div>
-        <div>
-          <span class="absolute top-0 left-0 z-[-1]">
-              <svg
-                width="189"
-                height="162"
-                viewBox="0 0 189 162"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <ellipse
-                    cx="16"
-                    cy="-16.5"
-                    rx="173"
-                    ry="178.5"
-                    transform="rotate(180 16 -16.5)"
-                    fill="url(#paint0_linear)"
-                    />
-                <defs>
-                    <linearGradient
-                      id="paint0_linear"
-                      x1="-157"
-                      y1="-107.754"
-                      x2="98.5011"
-                      y2="-106.425"
-                      gradientUnits="userSpaceOnUse"
-                      >
-                      <stop stop-color="white" stop-opacity="0.07" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                </defs>
-              </svg>
-          </span>
-          <span class="absolute bottom-0 right-0 z-[-1]">
-              <svg
-                width="191"
-                height="208"
-                viewBox="0 0 191 208"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <ellipse
-                    cx="173"
-                    cy="178.5"
-                    rx="173"
-                    ry="178.5"
-                    fill="url(#paint0_linear)"
-                    />
-                <defs>
-                    <linearGradient
-                      id="paint0_linear"
-                      x1="-3.27832e-05"
-                      y1="87.2457"
-                      x2="255.501"
-                      y2="88.5747"
-                      gradientUnits="userSpaceOnUse"
-                      >
-                      <stop stop-color="white" stop-opacity="0.07" />
-                      <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                </defs>
-              </svg>
-          </span>
-        </div>
-    </div>
-  </div>
-</section>
-<!-- ====== Call To Action Section End -->
+      </div>
+    </section>
+    <!-- ====== Call To Action Section End -->
 
     <x-pages.footer/>
 

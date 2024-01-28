@@ -93,7 +93,7 @@ data-wow-delay=".15s"
         <ul>
           <li>
             <a
-              href="#home"
+              href="{{ route('home') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -107,7 +107,7 @@ data-wow-delay=".15s"
           </li>
           <li>
             <a
-              href="#about"
+              href="{{ route('about') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -121,7 +121,7 @@ data-wow-delay=".15s"
           </li>
           <li>
             <a
-              href="#pricing"
+              href="{{ route('price') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -135,7 +135,7 @@ data-wow-delay=".15s"
           </li>
           <li>
             <a
-              href="#contact"
+              href="{{ route('contact') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -157,7 +157,7 @@ data-wow-delay=".15s"
         <ul>
           <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('howItWorks') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -171,7 +171,7 @@ data-wow-delay=".15s"
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('privacy') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]

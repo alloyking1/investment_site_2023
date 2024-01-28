@@ -34,4 +34,26 @@ class PagesController extends Controller
     {
         return view('contact');
     }
+
+
+    /**
+     * privacy pages
+     */
+
+    public function howItWorks()
+    {
+        return view('howItWorks');
+    }
+    public function privacy()
+    {
+        return view('privacy');
+    }
+    public function terms()
+    {
+        return view('terms');
+    }
+    public function refund()
+    {
+        return view('refund');
+    }
 }

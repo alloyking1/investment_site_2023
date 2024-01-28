@@ -22,21 +22,36 @@
                       </a>
                     </li>
                     <li>
-                      <a href="{{ route('home') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                      <a href="{{ route('about') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
                         <i class="mr-1 fa fa-user opacity-60"></i>
                         About
                       </a>
                     </li>
+                    <li>
+                      <a href="{{ route('services') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Services
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('price') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Price
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('team') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Team
+                      </a>
+                    </li>
+                    <li>
+                      <a href="{{ route('contact') }}" class="block px-4 py-2 mr-2 font-normal transition-all lg-max:opacity-0 duration-250 ease-soft-in-out text-sm text-slate-700 lg:px-2" href="../pages/profile.html">
+                        <i class="mr-1 fa fa-user opacity-60"></i>
+                        Contact
+                      </a>
+                    </li>
                   </ul>
-                  <!-- online builder btn  -->
-                  <!-- <li class="flex items-center">
-                    <a
-                      class="leading-pro ease-soft-in text-fuchsia-500 border-fuchsia-500 text-xs tracking-tight-soft bg-150 bg-x-25 rounded-3.5xl hover:border-fuchsia-500 hover:scale-102 hover:text-fuchsia-500 active:hover:border-fuchsia-500 active:hover:scale-102 active:hover:text-fuchsia-500 active:opacity-85 active:shadow-soft-xs active:bg-fuchsia-500 active:border-fuchsia-500 mr-2 mb-0 inline-block cursor-pointer border border-solid bg-transparent py-2 px-8 text-center align-middle font-bold uppercase shadow-none transition-all hover:bg-transparent hover:opacity-75 hover:shadow-none active:scale-100 active:text-white active:hover:bg-transparent active:hover:opacity-75 active:hover:shadow-none"
-                      target="_blank"
-                      href="https://www.creative-tim.com/builder/soft-ui?ref=navbar-dashboard&amp;_ga=2.76518741.1192788655.1647724933-1242940210.1644448053"
-                      >Online Builder</a
-                    >
-                  </li> -->
                   <ul class=" pl-0 mb-0 list-none lg:block lg:flex-row">
                     <li>
                       <a href="{{ route('login') }}"
