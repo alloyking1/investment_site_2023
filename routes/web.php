@@ -29,7 +29,7 @@ Route::get('/team', [PagesController::class, 'team'])->name('team');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/how/it/works', [PagesController::class, 'howItWorks'])->name('howItWorks');
 Route::get('/privacy', [PagesController::class, 'privacy'])->name('privacy');
-// Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('/terms/of/service', [PagesController::class, 'termsOfService'])->name('terms-of-services');
 // Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 Route::post('/contact', ContactController::class)->name('contact');

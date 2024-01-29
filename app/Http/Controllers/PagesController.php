@@ -48,7 +48,7 @@ class PagesController extends Controller
     {
         return view('privacy');
     }
-    public function terms()
+    public function termsOfService()
     {
         return view('terms');
     }

@@ -1288,37 +1288,114 @@
 
    
     <section>
-        <div>
-            **Privacy Policy**
-
-**Last updated: [Insert Date]**
-
-**1. Introduction**
-Welcome to [Your Company Name]. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy, or our practices with regards to your personal information, please contact us at [Contact Information].
-
-**2. Information We Collect**
-We collect personal information that you voluntarily provide to us when you register on the website, express an interest in obtaining information about us or our products and services, or otherwise when you contact us. The personal information we collect depends on the context of your interactions with us and the website, and may include your name, email address, phone number, and payment information.
-
-**3. How We Use Your Information**
-We use personal information collected via our website for a variety of business purposes, including to fulfill and manage your orders, deliver services, process payments, communicate with you, and for other legitimate business purposes.
-
-**4. Sharing Your Information**
-We may share your information with service providers, affiliates, and partners who perform services for us or on our behalf and require access to such information to do that work.
-
-**5. Security of Your Information**
-We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that no security measures are perfect or impenetrable.
-
-**6. Your Privacy Rights**
-You may review, change, or terminate your account at any time. Depending on your location, you may have additional rights regarding your personal information.
-
-**7. Updates to This Policy**
-We may update this privacy policy from time to time. The updated version will be indicated by an updated "Last updated" date.
-
-**8. Contact Us**
-If you have questions or comments about this policy, you may email us at [Email Address] or contact us by post at [Your Company Address].
-
-[Your Company Name] [Website URL]
-        </div>
+        <div class="container mx-auto p-6">
+            <div class="-mx-4 flex flex-wrap p-6">
+               <div class="w-full px-4">
+                  <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+                     <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                     </span>
+                     {{-- <h2
+                        class="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"
+                        >
+                        Privacy Policy
+                     </h2> --}}
+                     <p class="text-body-color text-base dark:text-dark-6">
+                        <ul class="p-6">
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                Introduction
+                                </span>
+                                Welcome to {{ env('APP_NAME') }}. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy, or our practices with regards to your personal information, please contact us at [Contact Information].
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    Information We Collect
+                                </span>
+                               
+                        We collect personal information that you voluntarily provide to us when you register on the website, express an interest in obtaining information about us or our products and services, or otherwise when you contact us. The personal information we collect depends on the context of your interactions with us and the website, and may include your name, email address, phone number, and payment information.
+                        
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                Introduction
+                                </span>
+                                Welcome to  {{ env('APP_NAME') }}. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy, or our practices with regards to your personal information, please contact us at [Contact Information].
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                Introduction
+                                </span>
+                                Welcome to  {{ env('APP_NAME') }}. We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy policy, or our practices with regards to your personal information, please contact us at [Contact Information].
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    How We Use Your Information
+                                </span>
+                               
+                                We use personal information collected via our website for a variety of business purposes, including to fulfill and manage your orders, deliver services, process payments, communicate with you, and for other legitimate business purposes.
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    Sharing Your Information
+                                </span>
+                               
+                                We may share your information with service providers, affiliates, and partners who perform services for us or on our behalf and require access to such information to do that work.
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    Security of Your Information
+                                </span>
+                               
+                                We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that no security measures are perfect or impenetrable.
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    Your Privacy Rights
+                                </span>
+                                
+                                You may review, change, or terminate your account at any time. Depending on your location, you may have additional rights regarding your personal information.
+                                
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    Updates to This Policy
+                                </span>
+                                
+                        We may update this privacy policy from time to time. The updated version will be indicated by an updated "Last updated" date.
+                        
+                            </li>
+                            <li>
+                                <span class="text-primary mb-2 block text-lg font-semibold">
+                     
+                                    Contact Us
+                                </span>
+                               
+                                If you have questions or comments about this policy, you may email us at [Email Address] or contact us by post at [Your Company Address].
+                                
+                            </li>
+                        </ul>
+                      
+                     </p>
+                  </div>
+               </div>
+            </div>
+       
     </section>
 
 

@@ -183,9 +183,9 @@ data-wow-delay=".15s"
               Privacy policy
             </a>
           </li>
-          <li>
+          {{-- <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('terms-of-services') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -196,7 +196,7 @@ data-wow-delay=".15s"
             >
               Terms of Service
             </a>
-          </li>
+          </li> --}}
           <li>
             <a
               href="javascript:void(0)"
@@ -218,12 +218,12 @@ data-wow-delay=".15s"
     <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
       <div class="w-full mb-10">
         <h4 class="text-white text-lg font-semibold mb-9">
-          Our Products
+          Our Interests
         </h4>
         <ul>
           <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('services') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -232,12 +232,12 @@ data-wow-delay=".15s"
                 mb-2
               "
             >
-              LineIcons
+             Bitcoin
             </a>
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('services') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -246,12 +246,12 @@ data-wow-delay=".15s"
                 mb-2
               "
             >
-              Ecommerce HTML
+              Real Estate
             </a>
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('services') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -260,12 +260,12 @@ data-wow-delay=".15s"
                 mb-2
               "
             >
-              Ayro UI
+              Agriculture
             </a>
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="{{ route('services') }}"
               class="
                 inline-block
                 text-base text-[#f3f4fe]
@@ -274,7 +274,7 @@ data-wow-delay=".15s"
                 mb-2
               "
             >
-              PlainAdmin
+              Equity
             </a>
           </li>
         </ul>
@@ -427,17 +427,17 @@ data-wow-delay=".15s"
             "
           >
             <a
-              href="javascript:void(0)"
+              href="{{ route('privacy') }}"
               class="text-base text-[#f3f4fe] hover:text-primary px-3"
             >
               Privacy policy
             </a>
-            <a
+            {{-- <a
               href="javascript:void(0)"
               class="text-base text-[#f3f4fe] hover:text-primary px-3"
             >
               Legal notice
-            </a>
+            </a> --}}
             <a
               href="javascript:void(0)"
               class="text-base text-[#f3f4fe] hover:text-primary px-3"
