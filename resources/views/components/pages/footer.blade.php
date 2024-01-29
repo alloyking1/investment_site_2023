@@ -183,7 +183,7 @@ data-wow-delay=".15s"
               Privacy policy
             </a>
           </li>
-          {{-- <li>
+          <li>
             <a
               href="{{ route('terms-of-services') }}"
               class="
@@ -196,8 +196,8 @@ data-wow-delay=".15s"
             >
               Terms of Service
             </a>
-          </li> --}}
-          <li>
+          </li>
+          {{-- <li>
             <a
               href="javascript:void(0)"
               class="
@@ -210,7 +210,7 @@ data-wow-delay=".15s"
             >
               Refund policy
             </a>
-          </li>
+          </li> --}}
         </ul>
       </div>
     </div>
