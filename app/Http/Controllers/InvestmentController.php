@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Actions\InvestAction;
+use App\Actions\RefBonusAction;
 use App\Http\Requests\InvestmentRequest;
 use App\Models\Investment;
 use Illuminate\Http\Request;
@@ -32,7 +33,7 @@ class InvestmentController extends Controller
         return view('investment.deposit');
     }
 
-    public function depositSave(Request $request)
+    public function depositSave(Request $request, InvestAction $action, RefBonusAction $refAction)
     {
         $request->validate([
 
@@ -41,6 +42,13 @@ class InvestmentController extends Controller
         $filename = time() . '.' . $request->image->extension();
         $request->image->move(public_path('images'), $filename);
         $investment = Investment::where('user_id', Auth::id())->update(['payment_img' => $filename]);
+
+        /**
+         * assign ref bonus
+         * This should be changed to where admin approves investment later
+         */
+        $investmentInfo = Investment::where('user_id', Auth::id())->get();
+        $refAction->handle($action, $investmentInfo->pluck('package')->first(), $investmentInfo->pluck('amount')->first());
 
         return redirect('dashboard')->with('success', 'Investement created successfully');
     }

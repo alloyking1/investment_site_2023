@@ -2,7 +2,9 @@
     <div class="">
         <x-dashboard.large-card header="investment (2)">
             <div>
-                <img src="https://www.imgonline.com.ua/eng/scan-qr-bar-code.php" alt="">
+                <p>Wallet Address</p>
+                <h3 class="md:text-2xl text-sm font-bold">bc1q05dsqr4p95cr9u3c52ykz80klg9qtlnmsz5en0</h3>
+                <img src="" alt="">
             </div>
             <form method="POST" action="{{ route('investment.deposit.save') }}" enctype="multipart/form-data">
                 @csrf

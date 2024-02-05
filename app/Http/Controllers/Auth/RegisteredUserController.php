@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
 
+use App\Actions\InvestAction;
+use App\Enum\InvestmentPackageEnum;
+use App\Enum\ContractRoiEnum;
+use App\Models\RefBonus;
+
 class RegisteredUserController extends Controller
 {
     /**
@@ -47,7 +52,6 @@ class RegisteredUserController extends Controller
         event(new Registered($user));
 
         Auth::login($user);
-
         return redirect(RouteServiceProvider::HOME);
     }
 }
