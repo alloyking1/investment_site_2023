@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
-    <title>Soft UI Dashboard Tailwind</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_1280.jpg" />
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_1280.jpg" />
+    <title>{{ config('app.name', 'Laravel') }}</title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
     <!-- Font Awesome Icons -->
