@@ -1442,8 +1442,32 @@
         </div>
      </div>
   </div>
+
+  <br><br>
+  <div class="container">
+    <div class="-mx-4 flex flex-wrap">
+      <div class="w-full px-4">
+         <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+            <span class="text-primary mb-2 block text-lg font-semibold">
+            Crypto update
+            </span>
+            <h2
+               class="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"
+               >
+               Crypto Currency Live Update
+            </h2>
+         </div>
+      </div>
+   </div>
+    <div class="btcwdgt-chart" bw-cash="true" bw-noshadow="true"></div>
+      <div style="height:560px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; box-sizing:content-box; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px;">
+      <div style="height:540px;padding:0px;margin:0px;">
+          <iframe src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505" width="100%" height="536" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;line-height:14px;box-sizing:content-box;"></iframe></div>
+          <div style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing:content-box; margin: 3px 6px 10px 0px; font-family: Verdana, Tahoma, Arial, sans-serif;"></div>
+      </div>	
+    </div>
+  </div>
 </section>
-<!-- ====== Services Section End -->
 
 
 
@@ -1549,9 +1573,6 @@
   </div>
 </section>
 <!-- ====== Call To Action Section End -->
-
-
-
 
     <!-- ====== About Section Start -->
     <section
@@ -2531,7 +2552,8 @@
           </div>
         </div>
       </div>
-
+      
+      
       <div class="absolute bottom-0 right-0 z-[-1]">
         <svg
           width="1440"
@@ -2561,6 +2583,60 @@
           </defs>
         </svg>
       </div>
+
+
+
+      <!-- TradingView Widget BEGIN -->
+      <br><br><br>
+      <br><br>
+      <div class="container">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+             <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
+                <span class="text-primary mb-2 block text-lg font-semibold">
+                Crypto update
+                </span>
+                <h2
+                   class="text-dark dark:text-white mb-3 text-3xl leading-[1.2] font-bold sm:text-4xl md:text-[40px]"
+                   >
+                   Crypto Currency Live Update
+                </h2>
+             </div>
+          </div>
+       </div>
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-forex-heat-map.js" async>
+        {
+        "width": "100%",
+        "height": "100%",
+        "currencies": [
+          "EUR",
+          "USD",
+          "JPY",
+          "GBP",
+          "CHF",
+          "AUD",
+          "CAD",
+          "NZD",
+          "CNY",
+          "TRY",
+          "SEK",
+          "NOK",
+          "DKK",
+          "ZAR",
+          "HKD",
+          "SGD",
+          "THB",
+          "MXN"
+        ],
+        "isTransparent": false,
+        "colorTheme": "dark",
+        "locale": "en"
+        }
+        </script>
+      </div>
+      <!-- TradingView Widget END -->
     </section>
     <!-- ====== Faq Section End -->
 
